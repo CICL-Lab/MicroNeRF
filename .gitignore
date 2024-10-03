@@ -1,0 +1,13 @@
+Tem
+INR/logs
+INR/*.npy
+**/**.pth
+__pycache__
+data
+base.txt
+evaluation.py
+tem.py
+.idea
+Comparison
+MicroNeRF_Experiment
+.DS_Store
