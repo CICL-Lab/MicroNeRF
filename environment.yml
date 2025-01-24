@@ -1,0 +1,10 @@
+name: MicroNeRF
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+  - torch=2.4.1
+  - nibabel=5.2.1
+  - cudatoolkit
+  - python

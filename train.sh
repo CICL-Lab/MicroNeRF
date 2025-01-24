@@ -1,6 +1,6 @@
 set -e
 
-directory=dir/to/data
+directory=dir/to/data     #
 for file in "$directory"/*
 do
   DATA_NAME=$(basename "$file")
