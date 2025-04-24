@@ -2,6 +2,7 @@ Tem
 INR/logs
 INR/*.npy
 **/**.pth
+**/*.nii.gz
 __pycache__
 base.txt
 evaluation.py
