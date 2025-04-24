@@ -21,7 +21,7 @@ To test MicroNeRF, pls excute the code as follows:
   
   BASE_NAME=$(basename "$file")
   BASE_NAME="${DATA_NAME%%.*}"
-  python -u MicroNeRF/main.py \
+  python -u main.py \
   --save_dir Expertments \
   --is_train \
   --img_file ${FILE_NAME} \
@@ -29,7 +29,7 @@ To test MicroNeRF, pls excute the code as follows:
   --model_file Expertments/${BASE_NAME}_stepBest.pth
   
   # Test stage
-  python -u MicroNeRF/main.py \
+  python -u main.py \
   --save_dir Expertments \
   --img_file ${FILE_NAME} \
   --step 20000 \
@@ -38,4 +38,8 @@ To test MicroNeRF, pls excute the code as follows:
  Remember to save your own data according to the format of `Data/test.nii.gz`, including the image header.
 
 
- 
+### Acknowledgement
+Part of the code is referred to [nerf](https://github.com/bmild/nerf).
+
+### Citation
+TODO
